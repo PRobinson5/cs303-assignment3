@@ -60,6 +60,7 @@ void Queue<Item_Type>::display() {
 		this->push(value);
 		i--;
 	}
+	cout << endl;
 }
 
 template <class Item_Type>
